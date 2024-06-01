@@ -115,4 +115,9 @@ function getFirstElement(arr) {
   console.log(getLastElement(["a", "b", "c"])); // "c"
   
   
-  
+  function getFirstCharacter(str) {
+  return str[0];
+}
+
+console.log(getFirstCharacter("hello")); // "h"
+console.log(getFirstCharacter("world")); // "w"
